@@ -1,0 +1,96 @@
+/* Navigation Area Start */
+.navcontainer{
+    height: 80px;
+    width: 100%;
+
+    
+   
+}
+
+.navcontainerCenter{
+    height: 100%;
+    width: min(90% ,  var(--max-width));
+    /* background-color: red; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-gold);
+    align-items: center;
+    
+    
+}
+
+.navBrand{
+    height: 100%;
+    width: 40%;
+    align-content: center;
+    
+}
+
+.navbrandTxt{
+    display: none;
+}
+
+.navBrandImg{
+    height: 80%;
+    width: 60%;
+}
+
+.navBrandImg > a > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.navLinks {
+    height: 100vh;
+    width: 800px;
+    background-color: var(--color-gold);
+    align-content: center;
+    border-left: 1px solid var(--color-gold);
+    box-shadow: -2px -2px 8px 0px var(--color-gold);
+    position: absolute;
+    margin-left: 400px; 
+    top: 0;
+
+
+}
+
+.navLinks > ul{
+    width: 90%;
+    padding: 10px;
+}
+
+.navLinks > ul > li{
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.navLinks > ul > li:hover{
+    background-color: var(--color-bg-primary);
+}
+.navBtns{
+
+    height: 40px;
+    width: 100px;
+    background-color: var(--color-gold);
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+ 
+    
+    
+}
+.navHamburger{
+    height: 80%;
+    width: 40px;
+    align-content: center;
+    
+}
+
+.navHamburger >  .burger {
+    height: 4px;
+    width: 30px;
+    background-color: var(--color-gold);
+    margin-top: 5px;
+}
